@@ -3,19 +3,20 @@
 </script>
 
 
-<section>
-	<h1>Implementation <sands>Scoping</sands> Tool</h1>
-	<nav>
-		<button class=" w-1/2 h-12 uppercase font-medium tracking-wider bg-slate-900 text-white">
-			Start
-		</button>
-	</nav>
-</section>
+<div class="flex flex-wrap mr-10 place-items-end grid-cols-1">
+	<h1 class="w-full text-huge font-bold font-sans">Implementation <br><span class="text-sands">Scoping</span> Tool</h1>
+	<div class="ml-auto mr-40 flex">
+		<a href="/home" class="align-center px-3.5 py-3 text-center font-medium rounded-md bg-sands text-white w-96 h-16 text-4xl">
+			Enter
+		</a>
+		
+	</div>
+</div>
 
 
 
 <style>
-	section {
+	/* section {
 		display: flex;
 		flex-direction: column;
 		flex: 0.6;
@@ -40,5 +41,5 @@
 		margin-top: 1rem;
 		margin-left: auto;
 		
-	}
+	} */
 </style>
