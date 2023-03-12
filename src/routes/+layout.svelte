@@ -1,12 +1,12 @@
 <script>
 	import "../app.css";
-	import Header from './Header.svelte';
+	import Header from './components/Header.svelte';
 </script>
 
 <div class="">
 	<Header />
 
-	<div class = "ml-10">
+	<div class = "ml-20 mr-20 mt-5">
 		<slot />
 	</div>
 
